@@ -10,6 +10,8 @@ const app = express();
 
 const PORT = process.env.PORT;
 
+app.use(express.json());
+
 app.use("/api/auth", authRoutes);
 app.listen(5001, () => {
   console.log("Server is running on PORT:"+PORT);
