@@ -94,7 +94,7 @@ export const useAuthStore = create((set, get) => ({
 
     if (socket || !authUser) return; // Prevent multiple connections
 
-    const newSocket = io("http://localhost:5000", {
+    const newSocket = io("http://localhost:5001", {
       query: { userId: authUser._id }, // Send user info if needed
       transports: ["websocket"],
     });
