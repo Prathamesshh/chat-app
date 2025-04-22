@@ -5,3 +5,7 @@ Chat-App is a full-stack real-time chat application that enables users to authen
 - ⚙️ **Backend**: Node.js, Express, MongoDB, Socket.IO
 - 🌐 **Frontend**: React, Vite, Tailwind CSS
 - ☁️ **Cloud**: Render (for deployment), Cloudinary (for image uploads)
+
+## Demo Video
+
+[Click here to watch the video](https://youtu.be/AuPppk_QXL8)
